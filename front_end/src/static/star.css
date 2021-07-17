@@ -1,0 +1,27 @@
+.evaStar{
+
+    padding-top: .2rem;
+    padding-bottom:  0.7rem;
+}
+.star{
+    font-size: 0;
+}
+.star-item{
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .60rem;
+    background-size: 100%;
+}
+.star-item.on{
+    background-image: url(star36_on@3x.png);
+}
+
+.star-item.off{
+    background-image: url(star36_off@3x.png);
+}
+.conf{
+    padding-left: 13.65rem;
+    padding-right: 13.65rem;
+}
